@@ -1,0 +1,79 @@
+magicq:
+  host: 192.168.8.173
+  port: 6553
+  playback: 2
+
+tracks:
+  11:
+    - filename: songs/Guns N' Roses-Sweet Child O' Mine w_Lyrics-bzAGZT_XTAk.wav
+      start: -380
+      group: music
+    - filename: songs/Another One Bites the Dust - Queen-Wz_DNrKVrQ8.wav
+      start: -22.69
+      group: music
+    - filename: songs/bargain.wav
+      start: 193
+      group: music
+  12:
+    - filename: songs/Tron Legacy - Soundtrack OST - 15 Solar Sailer - Daft Punk-yRvVyMuWbpM.wav
+      start: -185
+      group: music
+    - filename: songs/Daft Punk - Harder, Better, Faster, Stronger-GDpmVUEjagg.wav
+      start: -20.507
+      group: music
+    - filename: songs/fooled.wav
+      start: 205
+      group: music
+  13:
+    - filename: songs/Led Zeppelin - When The Levee Breaks-9NaQZojWi6U.wav
+      start: -7.1
+      group: music
+  14:
+    - filename: songs/time.wav
+      start: -299.105
+      group: music
+    - filename: songs/Muse - Space Dementia [HD]--bNnekk2_Yk.wav
+      start: -48.343
+      group: music
+  15:
+    - filename: songs/imperial.wav
+      start: -500.0
+      group: music
+    - filename: songs/reunion.wav
+      start: -440.0
+      group: music
+    - filename: songs/Europe - The Final Countdown (Official Video)-9jK-NcRmVcw.wav
+      start: -365.0
+      group: music
+    - filename: songs/truth.wav
+      start: -65.11
+      group: music
+
+all:
+  - magicq_cue: 2  # pre-match
+    start: -20
+
+  # - filename: cues/switch.wav
+  #   start: -14.97
+  # - magicq_cue: 3
+  #   start: -15
+  # - filename: cues/switch.wav
+  #   start: -9.97
+  # - magicq_cue: 4
+  #   start: -10
+  # - filename: cues/switch.wav
+  #   start: -4.97
+  # - magicq_cue: 5
+  #   start: -5
+
+  - filename: cues/switch.wav
+    start: -14.97
+  - magicq_cue: 5
+    start: -15
+
+  - magicq_cue: 6  # during match
+    start: -0.25
+  - magicq_cue: 7  # end of match
+    start: 120
+  - filename: cues/shooom.wav
+    start: 119.8
